@@ -31,7 +31,7 @@ source("R/pull_bbg_minute_energy.R")   # helpers only; its run guard skips the p
 ## --------------------------------------------------------------------------
 
 tick_cfg <- list(
-  out_dir       = "D:/AlphaLattice/data/blp_tick",
+  out_dir       = "D:/data/blp_tick",
   event_types   = c("TRADE", "BID", "ASK"),   # drop BID/ASK for ~1/5 the volume
   bbg_lookback  = 140L,                        # Bloomberg tick history depth
   tick_lookback = 30L,                         # days pulled on first run
