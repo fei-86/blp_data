@@ -24,7 +24,8 @@ suppressPackageStartupMessages({
   library(Rblpapi)
   library(data.table)
 })
-source("R/pull_bbg_minute_energy.R")   # helpers only; its run guard skips the pull
+
+source("data-raw/pull_bbg_minute_energy.R")  # helpers only; its run guard skips the pull
 
 ## --------------------------------------------------------------------------
 ## 0. Configuration
