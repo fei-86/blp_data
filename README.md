@@ -1,6 +1,6 @@
 # blp_data
 
-Pull intraday NYMEX energy futures data (CL, NG, HO, RB) from a Bloomberg Terminal into R: 1‑minute OHLCV bars and raw TRADE/BID/ASK ticks for every listed contract month, stored incrementally on disk with FinancialInstrument metadata for each contract.
+Made for students to pull intraday NYMEX energy futures data (CL, NG, HO, RB) from a Bloomberg Terminal into R: 1‑minute OHLCV bars and raw TRADE/BID/ASK ticks for every listed contract month, stored incrementally on disk with FinancialInstrument metadata for each contract. Users can add their own futures tickers instead of the preset NYMEX energy futures.
 
 ## Requirements
 
