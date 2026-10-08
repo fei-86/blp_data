@@ -45,7 +45,7 @@ universe <- data.frame(
 )
 
 cfg <- list(
-  out_dir       = "D:/AlphaLattice/data/bbg_minute",   # adjust as needed
+  out_dir       = "D:/data/bbg_minute",   # adjust as needed
   contract_from = "V26",         # first contract month to pull (Bloomberg month code + 2-digit yr)
   contract_to   = "Z27",         # last contract month to pull, inclusive
   bar_interval  = 1L,            # minutes
